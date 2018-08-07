@@ -82,8 +82,3 @@ let server = http.createServer((request, response) => {
         `);
     }
 });
-
-// 开启服务器(监听)
-server.listen(8848, "127.0.0.1", () => {
-    console.log("开启成功");
-});
